@@ -1,7 +1,7 @@
 ## JJeong-OH
 
 클라우드·네트워크·서버 인프라 보안을 공부하는 컴퓨터시스템공학 전공생입니다.
-웹 서비스와 클라우드 환경을 직접 구성해 보며, 인프라를 공격자 관점에서 점검하고 안전하게 설계하는 것을 공부하고 있습니다.
+웹 서비스와 클라우드 환경을 직접 구성해 보며, 인프라를 공격자 관점에서 점검하고 안전하게 설계하는 일에 관심이 있습니다.
 
 ### 관심 분야
 - **클라우드 보안**: 클라우드 설정 점검 자동화 (CSPM), 계정·권한 관리
@@ -19,5 +19,6 @@
 
 | 프로젝트 | 내용 | 사용 기술 |
 |---|---|---|
+| [InYou](https://github.com/JJeong-OH/InYou) | 미추홀구 청소년센터 시설 예약·프로그램 신청·학생 관리 플랫폼 (키오스크, 관리자 페이지, 모바일 앱). 관장님과 요구사항을 협의해 1인 개발, 시범운영 진행. 이후 개인정보 생명주기와 안전성 확보조치 기준에 맞춰 표시 제한·접속기록·파기를 보완하고 GitHub Actions로 시크릿 스캔·보안 회귀 테스트 자동화 | NestJS, Next.js, PostgreSQL |
 | [mini-waf](https://github.com/JJeong-OH/mini-waf) | XSS·SQLi·Path Traversal·Command Injection 탐지 및 IP 자동 차단 시스템. 팀 프로젝트 이후 OWASP Top 10 기준으로 시스템 자체를 점검하고 접근 제어·감사 기록·오탐 문제를 개선 | Python, Flask, React, MySQL |
 | [Data-communication](https://github.com/JJeong-OH/Data-communication) | Winsock TCP/UDP 소켓 통신. UDP 위에 순서 번호·ACK·재전송을 직접 구현한 파일 전송 | C++ |
