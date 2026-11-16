@@ -1,12 +1,23 @@
-- 👋 Hi, I’m @JJeong-OH
-- 👀 I’m interested in ... information security
-- 🌱 I’m currently learning ... computer engineering
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+## JJeong-OH
 
-<!---
-JJeong-OH/JJeong-OH is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+클라우드·네트워크·서버 인프라 보안을 공부하는 컴퓨터시스템공학 전공생입니다.
+웹 서비스와 클라우드 환경을 직접 구성해 보며, 인프라를 공격자 관점에서 점검하고 안전하게 설계하는 일에 관심이 있습니다.
+
+### 관심 분야
+- **클라우드 보안**: 클라우드 설정 점검 자동화 (CSPM), 계정·권한 관리
+- **네트워크 보안**: 트래픽 탐지·차단, 접근 제어
+- **서버·인프라 보안**: 서버 보안 설정, 로그 기반 이상 행위 탐지
+
+### 연구 · 진행 중
+
+| 주제 | 내용 | 상태 |
+|---|---|---|
+| 클라우드 보안 진단 도구 (CSPM) | AWS IAM·S3·보안그룹·CloudTrail 등 16개 항목 자동 점검. 발견한 취약점 중 권한 상승, 퍼블릭 버킷, 민감 포트 공개는 실제 악용 가능 여부를 스크립트로 검증하고, 결과를 개인정보보호법·ISMS-P 항목에 매핑. 역할 기반 접근 제어(RBAC)와 멀티 계정 관리 지원 | 졸업 캡스톤, 진행 중 |
+| 안티포렌식 행위 탐지 연구 | 가상환경에서 타임스톰핑·와이핑 등 5개 시나리오를 30회씩 자동 재현해 MFT·USN Journal 데이터셋(150회차)을 만들고, 100개 피처로 이상 탐지 모델을 비교. 기존 프로세스 수준 탐지 대비 F1 7.37% 향상, 오탐률 절반 감소 | 한국컴퓨터정보학회 학술대회 투고 예정 |
+
+### 프로젝트
+
+| 프로젝트 | 내용 | 사용 기술 |
+|---|---|---|
+| [mini-waf](https://github.com/JJeong-OH/mini-waf) | XSS·SQLi·Path Traversal·Command Injection 탐지 및 IP 자동 차단 시스템. 팀 프로젝트 이후 OWASP Top 10 기준으로 시스템 자체를 점검하고 접근 제어·감사 기록·오탐 문제를 개선 | Python, Flask, React, MySQL |
+| [Data-communication](https://github.com/JJeong-OH/Data-communication) | Winsock TCP/UDP 소켓 통신. UDP 위에 순서 번호·ACK·재전송을 직접 구현한 파일 전송 | C++ |
